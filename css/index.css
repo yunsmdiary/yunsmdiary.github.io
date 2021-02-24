@@ -48,6 +48,3 @@
 #index-content .post + .post {
   border-top: 1px solid #eee;
 }
-.article-tag-list {
-  display: inline-block;
-}

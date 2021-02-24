@@ -75,6 +75,45 @@ img {
 .main > .post .article-entry p {
   line-height: 25px;
 }
+.main > .post .article-entry table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 1px solid #cbcbcb;
+}
+.main > .post .article-entry td,
+.main > .post .article-entry th {
+  padding: 0;
+  border-left: 1px solid #cbcbcb;
+  border-width: 0 0 0 1px;
+  font-size: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: 0.5em 1em;
+}
+.main > .post .article-entry caption {
+  color: #000;
+  font: italic 85%/1 arial, sans-serif;
+  padding: 1em 0;
+  text-align: center;
+}
+.main > .post .article-entry thead {
+  background-color: #e0e0e0;
+  color: #000;
+  text-align: left;
+  vertical-align: bottom;
+}
+.main > .post .article-entry td {
+  background-color: transparent;
+}
+.main > .post .article-entry td {
+  border-bottom: 1px solid #cbcbcb;
+}
+.main > .post .article-entry tbody>tr:last-child>td {
+  border-bottom-width: 0;
+}
 .page .footer-nav {
   display: block;
   width: 90%;
@@ -408,6 +447,10 @@ code {
 .post .post-datetag .post-tag a {
   color: #aaa;
   text-decoration: none;
+}
+.post .post-datetag .post-tag li {
+  display: inline-block;
+  margin-left: 10px;
 }
 .post p {
   word-break: break-all;
